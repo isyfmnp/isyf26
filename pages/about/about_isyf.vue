@@ -11,12 +11,13 @@
       <h2>
         This Year's Theme:
         <PrimaryHighlight>
-          Innovation Unified: Towards a Better Future
+          Curiosity Unlocked: How Questions Drive Discovery in the Age of AI
         </PrimaryHighlight>
       </h2>
 
       <p>
-        "Innovation Unified" expresses the collaborative spirit and shared aspirations of young scientists in research and discovery of the world. This theme highlights the importance of unity and humility in the pursuit of groundbreaking discoveries and novel ideas. ISYF, likewise, facilitates meaningful conversations amongst bright young minds where diverse perspectives from delegates converge, exploring interdisciplinary approaches to solve global challenges. As young scientists, it is a common goal for us to envision a future of science and technology where collective innovation drives a positive change in society.
+        Throughout history, scientific advancement has been driven not merely by the search for answers, but by the willingness to ask profound and often disruptive questions. In the modern context of machine learning and automated systems, this theme emphasizes the enduring role of human curiosity. From Newton’s contemplation of gravity to Franklin’s work in molecular biology, each breakthrough has originated with inquiry. As artificial intelligence enhances our capacity for data analysis, it is imperative to preserve the uniquely human capacity to question, doubt, and imagine. Scientific discovery remains, above all, a product of curiosity.
+
       </p>
     </section>
 
