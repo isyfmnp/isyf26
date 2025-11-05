@@ -4,7 +4,7 @@
       <img class="logo light" src="/icon_light.png" alt="ISYF Logo" />
       <img class="logo dark" src="/icon_dark.png" alt="ISYF Logo" />
       <div class="text">
-        <div class="title">ISYF 2025</div>
+        <div class="title">ISYF 2026</div>
       </div>
     </a>
 

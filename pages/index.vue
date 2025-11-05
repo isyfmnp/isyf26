@@ -4,10 +4,10 @@
       <div class="info">
         <img class="logo" src="/icon_light.png" alt="ISYF Logo" />
         <div class="title-wrapper">
-          <h1 class="title">International Science Youth Forum 2025</h1>
+          <h1 class="title">International Science Youth Forum 2026</h1>
           <div class="title2-wrapper">
             <h1 class="title title2" aria-hidden>
-              International Science Youth Forum 2025
+              International Science Youth Forum 2026
             </h1>
           </div>
         </div>
@@ -15,7 +15,7 @@
         <div class="detail-list">
           <div class="detail">
             <span class="material-icons-outlined small-icon">
-              calendar_month </span>6-10 January 2025
+              calendar_month </span>4-9 January 2026
           </div>
           <div class="seperator"></div>
           <div class="detail">
@@ -43,39 +43,25 @@
 
     <div>
       <section class="letter1">
-        <!-- <Letter> -->
+        <!-- <Letter> 
         <img src="/images/profiles/organising-team/co-chairpersons.webp" alt="Jacinda Kung Jiexin and Seah Yuheng"
           class="cochairs-photo" />
+        -->
         <p class="sign">Dear Student Delegates and Educators,</p>
         <p>
-          Welcome to the 17th International Science Youth Forum (ISYF) @
-          Singapore, held from 6 to 10 January 2025!
+          replace 
         </p>
         <p>
-          ISYF provides a platform for student delegates from around the world
-          to share their passion for science, technology and research whilst
-          building long-lasting friendships. We hope that you will enjoy the
-          lineup of activities planned by our Organising
-          Committee!
+          replace
         </p>
         <p>
-          The theme for this year’s ISYF is: “Innovation Unified: Towards a
-          better future”. In a world riddled with complex global challenges,
-          unity in the pursuit of novel ideas and groundbreaking discoveries
-          is of paramount importance to pave the way for a better future.
-          Through ISYF, we hope that our young scientists will envision a
-          future where science and technology can be utilised for collective
-          innovation to drive positive change!
+          replace
         </p>
         <p>
-          The Organising Committee of ISYF 2025 look forward to meeting you
-          and we hope that you will have a fruitful time in Singapore!
+          replace
         </p>
         <p class="sign">
-          Warmest regards, <br />
-          Jacinda Kung Jiexin and Seah Yuheng <br />
-          Co-Chairpersons <br />
-          ISYF 2025 Student Organising Committee <br />
+          replace
         </p>
         <!-- </Letter> -->
       </section>
