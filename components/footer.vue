@@ -6,7 +6,7 @@
 
         <div class="credits">
           <span class="copyright">
-            © International Science Youth Forum 2025. All rights reserved.
+            © International Science Youth Forum 2026. All rights reserved.
           </span>
 
           <p>Made with ♡ by Tang Xuyuan and Nguyen Thien Minh Tuan</p>

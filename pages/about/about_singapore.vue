@@ -1,21 +1,24 @@
 <template>
   <Masthead>
     <h1>About Singapore</h1>
-    <h3>About the event theme and goals!</h3>
+    <h3></h3>
   </Masthead>
 
   <main>
     <section>
       <h2>
-        About Singapore
-        
+        Singapore Locale
       </h2>
 
       <p>
-        
       </p>
+
+      <PhotoCarousel :images="carouselImages" />
     </section>
 
+    <section>
+        <h2> A Cosmopolitan Garden City </h2>
+    </section>
    
   </main>
 </template>
@@ -23,7 +26,7 @@
 <style>
 .masthead::before {
   color: var(--bg);
-  background-image: url("/images/aboutbg2.webp");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/54/Singapore_Skyline_at_Night_with_Black_Sky_%28banner_esVoy%29.JPG");
   filter: brightness(40%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -100,10 +103,33 @@ section.goals {
 
 <script setup>
 import PrimaryHighlight from "../components/primaryHighlight.vue";
+import PhotoCarousel from "~/components/carousel/PhotoCarousel.vue";
 import { ref, watch, onMounted, onUnmounted } from "vue";
 definePageMeta({
   layout: "masthead",
 });
+
+// Carousel images with transparent overlay text
+const carouselImages = [
+  {
+    src: "/images/aboutbg2.webp",
+    caption: "Singapore Skyline",
+    description: "Experience the stunning cityscape of Singapore, a global hub of innovation and culture. The iconic Marina Bay Sands and Gardens by the Bay showcase the perfect blend of nature and modern architecture.",
+    alt: "Singapore skyline at dusk"
+  },
+  {
+    src: "/images/aboutbg2.webp",
+    caption: "Marina Bay Area",
+    description: "Marina Bay is the heart of Singapore's business and entertainment district. This waterfront precinct features world-class convention facilities, museums, and cultural attractions.",
+    alt: "Marina Bay waterfront"
+  },
+  {
+    src: "/images/aboutbg2.webp",
+    caption: "Gardens by the Bay",
+    description: "An iconic horticultural attraction spanning 101 hectares. The Supertree Grove and Cloud Forest dome represent Singapore's commitment to sustainability and green innovation.",
+    alt: "Gardens by the Bay Supertrees"
+  },
+];
 
 onMounted(() => {
   var coll = document.getElementsByClassName("collapsible");
