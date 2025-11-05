@@ -1,6 +1,6 @@
 <template>
   <Masthead>
-    <h1>About ISYF 2025</h1>
+    <h1>About ISYF 2026</h1>
     <h3>
       About the event theme and goals!
     </h3>

@@ -18,9 +18,28 @@
       <a class="item" href="/">
         <span class="item-text">Home</span>
       </a>
-      <a class="item" href="/about">
-        <span class="item-text">About</span>
-      </a>
+      <div class="closed" :class="{ open: profilesOpen }">
+        <a class="item" @click="profilesOpen = !profilesOpen">
+          <span class="item-text"> About </span>
+          <span class="material-icons-outlined indicator">chevron_right</span>
+        </a>
+      <div class="subitems-wrapper">
+          <ul class="subitems">
+            <li>
+              <a href="/about/about_isyf">
+                <span class="item-text">About ISYF</span>
+              </a>
+            </li>
+            <li>
+              <a href="/about/about_singapore">
+                <span class="item-text">About Singapore</span>
+              </a>
+            </li>
+    
+            
+          </ul>
+        </div>
+      </div>
       <a class="item" href="/programme">
         <span class="item-text">Programme</span>
       </a>
