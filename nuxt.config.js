@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-      title: "ISYF 2025",
+      title: "ISYF 2026",
       htmlAttrs: {
         lang: "en",
       },
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         { hid: "description", name: "description", content: "" },
         { name: "format-detection", content: "telephone=no" },
-        { name: "og:title", content: "ISYF 2025" },
+        { name: "og:title", content: "ISYF 2026" },
         { name: "og:description", content: "International Science Youth Forum 2025" },
         { name: "og:image", content: "https://isyf.hci.edu.sg/icon_light_solid.png" },
         { name: "google-site-verification", content: "ruZ7ymb2KZPXkT8UsU6_dJEUggZkb2sm9-mth5_sDCc" }
