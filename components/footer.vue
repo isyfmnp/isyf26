@@ -10,7 +10,7 @@
           </span>
 
           <p>Made with ♡ by Tang Xuyuan and Nguyen Thien Minh Tuan</p>
-          <p>Updated and maintained by Alvin Liu En Yu and Quek Zhi Xing</p>
+          <p>Updated and maintained by Ernest Chan Ern Yi and Sophie Tung Xuan Ying</p>
           <p>Special thanks to Studio Ardent for photos & video</p>
 
           <p style="font-style: italic">
@@ -38,7 +38,7 @@
               href="https://www.instagram.com/isyf.2025/"
               target="_blank"
             >
-              <InstagramIcon /><span class="full-social">@isyf.2025</span>
+              <InstagramIcon /><span class="full-social">@isyf.2026</span>
             </a>
             <a
               class="item"

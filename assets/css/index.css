@@ -10,7 +10,7 @@
   --font-display: "Fraunces", "IBM Plex Sans", "Open Sans",
     "Helvetica Now Display DW", sans-serif;
 
-  --primary-hue: 179;
+  --primary-hue: 202;
 
   --gray-950: hsl(var(--primary-hue), 0%, 5%);
   --gray-900-hsla: var(--primary-hue), 0%, 20%;
