@@ -43,25 +43,36 @@
 
     <div>
       <section class="letter1">
-        <!-- <Letter> 
-        <img src="/images/profiles/organising-team/co-chairpersons.webp" alt="Jacinda Kung Jiexin and Seah Yuheng"
+        <!-- <Letter>         -->
+
+        <img src="/images/profiles/organising-team/co-chairpersons-2026.jpg" alt="Jacinda Kung Jiexin and Seah Yuheng"
           class="cochairs-photo" />
-        -->
         <p class="sign">Dear Student Delegates and Educators,</p>
         <p>
-          replace 
+          Welcome to the 18th International Science Youth Forum (ISYF) @ Hwa Chong Institution, held from 5 to 9 January 2026! 
         </p>
         <p>
-          replace
+          ISYF provides a platform for student delegates from around the world to share their passion for Science, Technology and Research whilst building long-lasting friendships. Over the week, our Organising Committee has prepared an itinerary filled with sightseeing, learning and many opportunities for collaboration with your peers.
         </p>
         <p>
-          replace
+          The theme for this year’s ISYF is: “Curiosity Unlocked: How Questions Drive Discovery in the Age of AI.” Scientific discovery has always been rooted in curiosity, inspiring humanity to question the unknown and expand the frontiers of understanding. In an era shaped by artificial intelligence and rapid technological advancement, this human spirit of inquiry remains as vital as ever. As intelligent systems transform the way we explore and interpret the world, it is curiosity that continues to guide purposeful innovation and responsible progress. 
         </p>
         <p>
-          replace
+          Through ISYF 2026, we aim to nurture a generation of young scientists who value questions as much as answers, and who recognise that true discovery arises not from certainty, but from the courage to wonder.
+
+        </p>
+        <p>
+          The Organising Committee of ISYF 2026 looks forward to meeting you and we hope that you will have a fruitful time at ISYF 2026!
+
         </p>
         <p class="sign">
-          replace
+          Warmest regards, 
+
+<br> Jolin Lim En Qi and Kan Wei Sen
+
+<br> Co-Chairpersons
+
+<br> ISYF 2026 Student Organising Committee
         </p>
         <!-- </Letter> -->
       </section>
