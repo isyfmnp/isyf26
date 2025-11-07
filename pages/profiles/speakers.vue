@@ -31,7 +31,7 @@
 
       <section class="profile" v-for="profile in event.profiles">
         <div class="scroll-anchor" :id="profile.name.replaceAll(' ', '')"></div>
-        <img :src="'/images/profiles/speakers/' + profile.image + '.webp'" :alt="profile.name" />
+        <img :src="'/images/profiles/speakers/' + profile.image + '.webp'" :alt="profile.name"/>
         <div class="info">
           <h3>{{ profile.name }}</h3>
           <h4 v-if="profile.status">{{ profile.status }}</h4>
