@@ -45,7 +45,7 @@
       <section class="letter1">
         <!-- <Letter>         -->
 
-        <img src="/images/profiles/organising-team/co-chairpersons-2026.jpg" alt="Jacinda Kung Jiexin and Seah Yuheng"
+        <img src="/images/profiles/organising-team/co-chairpersons-2026.jpg" alt="Jolin Lim En Qi and Kan Wei Sen"
           class="cochairs-photo" />
         <p class="sign">Dear Student Delegates and Educators,</p>
         <p>
