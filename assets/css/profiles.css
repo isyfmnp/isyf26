@@ -53,7 +53,6 @@
       var(--clr-1) var(--stripe-width),
       var(--clr-2) var(--stripe-width),
       var(--clr-2) calc(var(--stripe-width) * 2));
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,7 +148,11 @@
 .intros img {
   width: 100%;
   border-radius: 8px;
+  width: 300px; 
+  height: 300px;
+  object-fit: cover;
   border: 1px solid var(--fg);
+  flex: 0 0 300px;
 }
 
 @media screen and (min-width: 900px) {
@@ -162,7 +165,7 @@
 
   .intros img {
     width: 18rem;
-    height: fit-content;
+    height: 18rem;
   }
 
   .intros .profile h3 {
