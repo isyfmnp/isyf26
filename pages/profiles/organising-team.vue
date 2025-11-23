@@ -82,7 +82,7 @@ const profiles = [
     description:
       'The Admin & Operations team are dedicated individuals who work tirelessly to ensure your ISYF experience is smooth and seamless. They orchestrate and tie events together behind the scenes to bring you a truly fulfilling experience!',
     imgCaption:
-      'Chan Jin Tian Donovan, Wong Yu Feng, Liu Dong Yue, Jeremiah Ho Leung Enn, Kim Eng Kian, Cao Zihan',
+      '<b>LEFT TO RIGHT: </b>Liu Dong Yue, Kim Eng Kian, Cao Zihan, Chan Jin Tian Donovan, Jeremiah Ho Leung Enn, Wong Yu Feng',
   },
   {
     name: 'Ceremonies',
@@ -90,7 +90,7 @@ const profiles = [
     description:
       'The Ceremonies team have planned two major events for ISYF: The ISYF Keynote Lecture and Closing Lunch. <br/><br/> The Keynote Lecture is a great chance for you to hear more from Nobel laureates and eminent scientists on issues surrounding the theme of the forum. You also get a chance to pose your very own questions to the experts in a forum styled question-and-answer session. <br/><br/> The Closing Ceremony on the other hand is our way of ending off ISYF on a high note, so be ready with your cameras to take some memorable photos!',
     imgCaption:
-      'Jolin Lim En Qi, Kan Wei Sen, Kwek Yee Shong, Nguyen Do Khanh Phuong, Kenneth Kuah Seng Ray, Ang En Ci',
+      '<b>LEFT TO RIGHT: </b>Kenneth Kuah Seng Ray, Kwek Yee Shong, Jolin Lim En Qi, Kan Wei Sen, Ang En Ci, Nguyen Do Khanh Phuong (not in photo)',
   },
   {
     name: 'Masterclasses',
@@ -98,7 +98,7 @@ const profiles = [
     description:
       'The Masterclasses team seek to connect you to knowledgeable and prominent scientists, allowing you to explore new perspectives and gain new insights on notable scientific research. We hope you stay curious and embrace this valuable oportunity with eminent scientists and Nobel laureates!',
     imgCaption:
-      'Alex Liu Su, Leong Wei Chan, Sun Zizhuo, Zhang Qinqi, Alexis Lee Simin, Zhou Ruihan, Cao Xizhen, Vu Minh Tran',
+      '<b>1ST ROW: </b>Sun Zizhuo, Leong Wei Chan, Alexis Lee Simin<br><b>2ND ROW: </b>Cao Xizhen, Alex Liu Su, Zhou Ruihan<br><b>3RD ROW: </b>Zhang Qinqi, Vu Minh Tran',
   },
   {
     name: 'Media & Publications',
@@ -106,7 +106,7 @@ const profiles = [
     description:
       'The Media & Publications team constantly strive to deliver to you the best publicity efforts and media projects. Stay informed with the ISYF website, Instagram pages and the student handbook. Also enjoy the unique designs on the ISYF merchandise made by our very own designers. We hope that the content we create will be able to add to your ISYF experience!',
     imgCaption:
-      'Amy Ong Jin Lu (Wang Jingru), Cheah Sheng Xin, Zhao Jianzhi, Wee Xi Ya Venecia, Liu Jia Yue, Tay Hao Chen, Wang Shihan, Chua Wenzheng Frederic,	Ernest Chan Ern Yi, Jiang Yixiang, Sophie Tung Xuan Ying<br>External Sub-comm:</b> Tay Hao Chen, Wang Shihan, Chua Wenzheng Frederic,	Ernest Chan Ern Yi, Jiang Yixiang, Sophie Tung Xuan Ying			',
+      '<b>1ST ROW: </b>Tay Hao Chen, Zhao Jianzhi, Chua Wenzheng Frederic, Jiang Yixiang<br><b>2ND ROW: </b>Ernest Chan Ern Yi, Amy Ong Jin Lu (Wang Jingru), Cheah Sheng Xin<br><b>3RD ROW: </b>Sophie Tung Xuan Ying, Wee Xi Ya Venecia, Wang Shihan, Liu Jia Yue (not in photo)',
   },
   {
     name: 'Recreational Activities',
@@ -114,7 +114,7 @@ const profiles = [
     description:
       'The Recreational Activities team are in charge of ensuring you enjoy yourself thoroughly, through fun activities like the Singapore Discovery Tour, Cultural Hour and Exhibitions. ISYF is the perfect avenue to meet new friends who are passionate in science, and we hope that these activities provide a great time for you to bond with them!',
     imgCaption:
-      'Tan Eu Chern, Koo Xin Xuan (Gu Xinxuan), Liang Zhongchen, Wang Shao Kai, Xie Sihao, Gao Yuxin, Dai Jiacheng, Su Ruo En <br> External: Su Ruo En',
+      '<b>1ST ROW: </b>Liang Zhongchen, Xie Sihao, Dai Jiacheng<br><b>2ND ROW: </b>Su Ruo En, Tan Eu Chern, Koo Xin Xuan (Gu Xinxuan), Gao Yuxin<br><b>3RD ROW: </b>Wang Shao Kai',
   },
   {
     name: 'Science Activities',
@@ -122,7 +122,7 @@ const profiles = [
     description:
       'The Science Activities team will enrich your learning with various activities to dive deeper into the world of Science. Do look forward to science excursions and challenges, which will be sure to provide something new for everyone!',
     imgCaption:
-      'Jethro Chai Tsin Kai, Caelen Chang Kai Mun, Zhu Yijun, Kong Jia Le Dylan, Yao Zilu Isaiah, Boyce, Sim Shuan Luck ',
+      '<b>1ST ROW: </b>Zhu Yijun, Yao Zilu Isaiah<br><b>2ND ROW: </b>Sim Shuan Luck, Boyce, Kong Jia Le Dylan<br><b>3RD ROW: </b>Caelen Chang Kai Mun, Jethro Chai Tsin Kai',
   },
 ];
 </script>
