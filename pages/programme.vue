@@ -294,14 +294,15 @@ onMounted(() => {
 });
 
 const days = [
-  "Day 0 (5 Jan)",
-  "Day 1 (6 Jan)",
-  "Day 2 (7 Jan)",
-  "Day 3 (8 Jan)",
-  "Day 4 (9 Jan)",
-  "Day 5 (10 Jan)",
+  "Day 0 (4 Jan)",
+  "Day 1 (5 Jan)",
+  "Day 2 (6 Jan)",
+  "Day 3 (7 Jan)",
+  "Day 4 (8 Jan)",
+  "Day 5 (9 Jan)",
 ];
 
+// NOTE: breakfast was not included in event timeline for 2026.
 const events = [
   [
     // Day 0
@@ -309,15 +310,19 @@ const events = [
       // image:"/images/artwork.webp",
       name: "Arrival of Delegates",
       description: "Welcome to Singapore!",
+      highlight: true,
+    },
+    {
+      name: "Lunch",
+      time: "11 AM - 12 PM",
     },
     {
       name: "Dinner",
-      time: "6 PM",
+      time: "6PM - 7PM"
     },
     {
-      name: "Briefing and Cultural Hour",
-      time: "7 PM - 7:30PM",
-      description: "The Cultural Hour and Exhibition provides the opportunity for delegates from all over the world to showcase their unique history, culture and tradition! Through this, delegates will be able to traverse the global village, better understand each other’s cultures, and view the world from a global perspective.",
+      name: "Safety Briefing",
+      time: "7 PM - 7:45 PM",
     },
   ],
   [
@@ -327,68 +332,72 @@ const events = [
       time: "7:30 AM",
     },
     {
-      name: "Programme Briefing",
+      name: "Programme Briefing @ LT3",
       time: "8 AM",
     },
     {
-      name: "Depart for NUS",
-      time: "9:30 AM",
-    },
-    {
-      name: "Professor Sow’s Lecture: Introduction to the Nanoworld @ National University Singapore",
-      time: "10 AM",
+      name: "Team Bonding Activities and Cultural Exhibition ",
+      time: "8:30 AM - 11 AM",
       highlight: true,
-      description:
-        "Wonder what happens when you zoom in, in and in? Want to discover intriguing properties of matter at the nanoscale? Look no further! Delegates will delve into the nanoworld with the friendly and brilliant Professor Sow Chorng Haur from the National University of Singapore! Through demonstrations and interactive activities, delegates may look forward to exploring current and future applications of nanotechnology with this fun-filled lecture.",
     },
     {
-      name: "Lunch at NUS",
-      time: "12 PM",
+      name: "Lunch",
+      time: "11 AM - 12 PM",
     },
-    {
-      name: "NUS ECE Lab Tour",
-      time: "2 PM - 4 PM",
-      highlight: true,
-      description: "",
-    },
-    {
-      name: "Return to HCIBS",
-      time: "5 PM",
-    },
-    {
-      name: "Dinner",
-      time: "5:30 PM",
-    },
-    {
-      name: "Science Activities",
-      time: "6:30 PM - 8:30 PM",
-    },
-  ],
-  [
-    // Day 2
     {
       name: "Singapore Discovery Trail",
-      time: "7:30 AM",
+      time: "12:30 PM - 5:30 PM",
       highlight: true,
       description:
-        "From the phenomenal urban landscape to the lush nature in Singapore’s parks, adventure awaits! On the Singapore Discovery Trail, delegates will be able to explore key attractions in Singapore while completing challenges and tasks throughout their journey. The trail will also allow delegates to gain a deeper understanding of Singapore’s traditions and cultures while immersing in the wonders of this garden city. ",
-    },
-    {
-      name: "Return to HCI",
-      time: "2:30 PM",
-    },
-    {
-      name: "Science Activites",
-      time: "3 PM - 5:30 PM",
+        "From the phenomenal urban landscape to the lush nature in Singapore’s parks, adventure awaits! On the Singapore Discovery Trail, delegates will be able to explore key attractions in Singapore while completing challenges and tasks throughout their journey. The trail will also allow delegates to gain a deeper understanding of Singapore’s traditions and cultures while immersing in the wonders of this garden city.",
     },
     {
       name: "Dinner",
       time: "6 PM - 7 PM",
     },
     {
-      name: "Cultural Hour @ LT2",
-      time: "7 PM - 9 PM",
-      highlight: true
+      name: "Programme Briefing",
+      time: "7 PM - 7:45 PM",
+    },
+  ],
+  [
+    // Day 2
+    {
+      name: "Depart for NUS",
+      time: "8:30 AM",
+    },
+    {
+      name: "Professor Sow’s Lecture: Introduction to the Nanoworld @ National University Singapore",
+      time: "9:30 AM - 11 AM",
+      highlight: true,
+      description: "Wonder what happens when you zoom in, in and in? Want to discover intriguing properties of matter at the nanoscale? Look no further! Delegates will delve into the nanoworld with the friendly and brilliant Professor Sow Chorng Haur from the National University of Singapore! Through demonstrations and interactive activities, delegates may look forward to exploring current and future applications of nanotechnology with this fun-filled lecture.",
+    },
+    {
+      name: "Lunch at NUS",
+      time: "11:30 AM - 12:30 PM"
+    },
+    {
+      name: "Depart for Science Centre Singapore",
+      time: "1:30 PM",
+    },
+    {
+      name: "Workshops at Science Centre Singapore",
+      highlight: true,
+      time: "1:30 PM - 4:30 PM",
+      description: "[Description needed?]",
+    },
+    {
+      name: "Return to HCI",
+      time: "5 PM",
+    },
+    {
+      name: "Dinner",
+      time: "6 PM - 7 PM",
+    },
+    {
+      name: "Science Quest",
+      time: "7:15 PM - 8:30 PM",
+      highlight: true,
     },
   ],
   [
@@ -406,33 +415,27 @@ const events = [
     },
     {
       name: "Lunch",
-      time: "11:15 AM - 12:30 PM",
+      time: "11:30 AM - 12:30 PM",
     },
     {
-      name: "Depart for Science Centre",
-      time: "12:30 PM",
+      name: "Singapore Art and Science Museum",
+      time: "1:30 PM - 5 PM",
+      highlight: true,
+      description: "[Description needed?]"
+    },
+    {
+      name: "Return to HCI",
+      time: "5 PM",
+    },
+    {
+      name: "Dinner",
+      time: "6 PM - 7 PM",
     },
     {
       name: "Science Quest",
-      time: "1 PM - 4 PM",
+      time: "7:15 PM - 8:30 PM",
       highlight: true,
-      description: "",
-    },
-    {
-      name: "Return to HCIBS",
-      time: "4 PM",
-    },
-    {
-      name: "Cultural Exhibition and Dinner",
-      time: "5 PM - 7 PM",
-      highlight: true,
-      description: "",
-    },
-    {
-      name: "Cultural Hour @ LT2",
-      time: "7 PM - 9 PM",
-      highlight: true,
-    },
+    }
   ],
   [
     // Day 4
@@ -449,15 +452,15 @@ const events = [
     },
     {
       name: "Lunch",
-      time: "12 AM - 1 PM",
+      time: "11:30 PM - 12:30 PM",
     },
     {
       name: "Seated for Keynote Lecture",
-      time: "1:15 PM",
+      time: "1:45 PM",
     },
     {
       name: "ISYF Keynote Lecture",
-      time: "1:30 PM - 3 PM",
+      time: "2 PM - 3:30 PM",
       highlight: true,
       description:
         "Hear from the insights of Nobel Laureates during the Keynote Lecture, which will also be the flagship event of ISYF 2025. After which, take a tour around the Poster Exhibition, where student delegates will share their scientific research with eminent scientists, educators, and other fellow delegates! ",
@@ -468,25 +471,25 @@ const events = [
       highlight: true,
     },
     {
-      name: "Team Bonding Activities",
-      time: "4:30 PM - 9 PM",
+      name: "Dinner Out",
+      time: "5 PM - 9 PM",
     },
   ],
   [
     // Day 5
     {
-      name: "Science Activity Solutions",
-      time: "8 AM - 10 AM",
+      name: "Science Quest and Poster Presentation",
+      time: "8:30 AM - 10 AM",
       highlight: true,
       description:
         "The collaborative science activity promises to tickle delegates’ thinking caps as they explore the art of geometry and principles of physics. This will culminate into a group presentation, where delegates will share their ideas with their peers. The thrill of discovery awaits! ",
     },
     {
       name: "Depart for Hotel",
-      time: "11 AM",
+      time: "10 AM - 11:15 AM",
     },
     {
-      name: "Closing Lunch & Farewell",
+      name: "Closing Lunch and Farewell",
       time: "12 PM - 3 PM",
       highlight: true,
       description:
@@ -495,7 +498,7 @@ const events = [
     {
       name: "Final Departure",
       time: "3 PM",
-      description: "Thanks for coming for ISYF 2025!",
+      description: "Thanks for coming for ISYF 2026!",
     },
   ],
 ];
