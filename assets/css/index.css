@@ -46,8 +46,10 @@
 
   --red-hsla: 5, 55%, 50%;
   --red: hsl(var(--red-hsla));
-  --yellow-hsla: 40, 70%, 60%;
+  --yellow-hsla: 40, 92%, 72%;
   --yellow: hsl(var(--yellow-hsla));
+  --gold-hsla: 40, 82%, 60%;
+  --gold: hsl(var(--gold-hsla));
   --green-hsla: 168, 50%, 50%;
   --green: hsl(var(--green-hsla));
   --blue-hsla: 217, 70%, 60%;
