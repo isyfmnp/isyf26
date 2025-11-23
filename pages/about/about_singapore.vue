@@ -16,10 +16,6 @@
       <PhotoCarousel :images="carouselImages" />
     </section>
 
-    <section>
-        <h2> A Cosmopolitan Garden City </h2>
-    </section>
-   
   </main>
 </template>
 
@@ -112,22 +108,28 @@ definePageMeta({
 // Carousel images with transparent overlay text
 const carouselImages = [
   {
-    src: "/images/aboutbg2.webp",
+    src: "/images/singapore-skyline.jpg",
     caption: "Singapore Skyline",
     description: "Experience the stunning cityscape of Singapore, a global hub of innovation and culture. The iconic Marina Bay Sands and Gardens by the Bay showcase the perfect blend of nature and modern architecture.",
-    alt: "Singapore skyline at dusk"
+    alt: "Singapore skyline"
   },
   {
-    src: "/images/aboutbg2.webp",
+    src: "/images/marina-bay-sands.jpg",
     caption: "Marina Bay Area",
     description: "Marina Bay is the heart of Singapore's business and entertainment district. This waterfront precinct features world-class convention facilities, museums, and cultural attractions.",
     alt: "Marina Bay waterfront"
   },
   {
-    src: "/images/aboutbg2.webp",
+    src: "/images/gardens-by-the-bay.jpg",
     caption: "Gardens by the Bay",
     description: "An iconic horticultural attraction spanning 101 hectares. The Supertree Grove and Cloud Forest dome represent Singapore's commitment to sustainability and green innovation.",
     alt: "Gardens by the Bay Supertrees"
+  },
+  {
+    src: "/images/art-science-museum.webp",
+    caption: "Singapore Art and Science Museum",
+    description: "A space for art, science, and human spirit, with 33 galleries showcasing a multidisciplinary space celebrating cosmology, couture, environmental justice, and other cutting edge innovation.",
+    alt: "The ArtScience Museum, Singapore"
   },
 ];
 
