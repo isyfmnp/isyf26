@@ -24,7 +24,7 @@
     <section class="colored goals">
       <h2>Our Goals</h2>
 
-      <div class="goal red">
+      <div class="goal blue">
         <div>
           <h3>Inspire Passion for Science Among Youth</h3>
           <p>
@@ -44,7 +44,7 @@
         </div>
       </div>
 
-      <div class="goal green">
+      <div class="goal purple">
         <div>
           <h3>
             Establish Cooperation and Friendship Amongst Young Talented Science
@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div class="goal purple">
+      <div class="goal gold">
         <div>
           <h3>Build Capacities of Science Educators</h3>
           <p>
@@ -116,11 +116,11 @@ section.goals {
   padding-left: 1rem;
 }
 
-.red::before {
-  background-color: var(--red);
+.blue::before {
+  background-color: hsla(var(--blue-hsla),0.6);
 }
-.green::before {
-  background-color: var(--green);
+.gold::before {
+  background-color: var(--gold);
 }
 .purple::before {
   background-color: var(--purple);

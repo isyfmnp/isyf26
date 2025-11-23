@@ -54,9 +54,10 @@
 .collage .name {
   bottom: -1rem;
   background-color: var(--bg);
+  width: 80%;
   color: var(--fg);
   border-radius: 2rem;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--gray-900);
 }
 
 .collage .profile-img{
