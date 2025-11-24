@@ -35,8 +35,7 @@
                 <span class="item-text">About Singapore</span>
               </a>
             </li>
-    
-            
+
           </ul>
         </div>
       </div>

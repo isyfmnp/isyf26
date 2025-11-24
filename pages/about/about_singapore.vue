@@ -15,7 +15,23 @@
 
       <PhotoCarousel :images="carouselImages" />
     </section>
+    <section>
+      <h2>A Cosmopolitan Garden City</h2>
+      <p>Singapore is a city state nestled off the southern tip of the Malay Peninsula in Southeast Asia, and is commonly known as the 
+         <b>“Little Red Dot”</b> due to its small land area of 725.7km. Singapore is adorned with modern architectural icons such as the Marina Bay Sands and the Jewel Changi. Colonial buildings and Chinese shophouses – reminiscent of the city's rich history blend in with these modern icons to create a truly unique city skyline.
+         Specks of greenery add life to this small city state, with some of the best places to get in touch with nature including the Singapore Botanic Gardens, Bukit Timah Hill and the Southern Ridges, a 10 km trail connecting multiple national parks together.
+         <br><br>
+        Besides the beautiful scenery, Singapore also offers a unique cultural experience. In Singapore, many cultures blend with one another, creating the unique Singaporean identity where people of different races and religions live together harmoniously. This has shaped the cuisines we enjoy and the way we communicate.
 
+      </p>
+      <div class="button-row">
+        <a class="btn" href="/programme">
+          <span class="icon material-icons-outlined">event_note</span>
+            Which locale will delegates be visiting?
+          <span class="icon material-icons-outlined">chevron_right</span>
+        </a>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -94,6 +110,28 @@ section.goals {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+/* ========== BUTTON ROW (from index) ========== */
+.button-row {
+  width: 100%;
+  --fg: var(--primary);
+  margin-block: 3.5rem;
+}
+
+.button-row .btn {
+  margin-block: -1px;
+  padding-block: 0.5rem;
+  padding-inline: 0.25rem;
+  border-block: 1px solid var(--gray-300);
+
+  text-decoration: none;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.375rem;
 }
 </style>
 
