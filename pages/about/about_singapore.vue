@@ -18,7 +18,8 @@
     <section>
       <h2>A Cosmopolitan Garden City</h2>
       <p>Singapore is a city state nestled off the southern tip of the Malay Peninsula in Southeast Asia, and is commonly known as the 
-         <b>“Little Red Dot”</b> due to its small land area of 725.7km. Singapore is adorned with modern architectural icons such as the Marina Bay Sands and the Jewel Changi. Colonial buildings and Chinese shophouses – reminiscent of the city's rich history blend in with these modern icons to create a truly unique city skyline.
+         <b>“Little Red Dot”</b> due to its small land area of 725.7km.<br><br>
+        Singapore is adorned with modern architectural icons such as the Marina Bay Sands and the Jewel Changi. Colonial buildings and Chinese shophouses – reminiscent of the city's rich history blend in with these modern icons to create a truly unique city skyline.
          Specks of greenery add life to this small city state, with some of the best places to get in touch with nature including the Singapore Botanic Gardens, Bukit Timah Hill and the Southern Ridges, a 10 km trail connecting multiple national parks together.
          <br><br>
         Besides the beautiful scenery, Singapore also offers a unique cultural experience. In Singapore, many cultures blend with one another, creating the unique Singaporean identity where people of different races and religions live together harmoniously. This has shaped the cuisines we enjoy and the way we communicate.

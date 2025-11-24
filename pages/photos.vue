@@ -1,7 +1,7 @@
 <template>
   <div>
     <Masthead>
-      <h1>ISYF 2025</h1>
+      <h1>ISYF 2026</h1>
     </Masthead>
 
     <main>
@@ -42,7 +42,9 @@
           </div>
         </div>
       </section>
-      <span>Link to photos on Google Drive: <a class="a_no_underline" href="https://drive.google.com/drive/folders/1p4cfXtDtIjeNj6zNjYKUDXM_vQ2JjXDQ">https://drive.google.com/drive/folders/1p4cfXtDtIjeNj6zNjYKUDXM_vQ2JjXDQ</a></span>
+      <span>
+        This page will be updated during ISYF 2026. See you then!<br><br>
+        Link to photos on Google Drive: <a class="a_no_underline" href="#">Coming soon!</a></span>
     </main>
   </div>
 </template>
