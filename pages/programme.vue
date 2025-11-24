@@ -139,10 +139,10 @@ ul {
 }
 
 .event-day:nth-of-type(even) {
-  --fg: var(--gray-800);
-  --fg-2: var(--gray-500);
-  --bg: var(--primary-200);
-  --bg-2: hsla(var(--gold-hsla), 0.325);
+  --fg: var(--gray-100);
+  --fg-2: var(--gray-400);
+  --bg: var(--primary-900);
+  --bg-2: var(--primary-800);
   --cl: var(--primary-400);
 }
 
@@ -151,7 +151,7 @@ ul {
   z-index: -50;
   position: absolute;
   inset: 0;
-  background-color: hsla(var(--yellow-hsla), 0.60);
+  background-color: var(--primary-900);
 }
 
 .event-details {
