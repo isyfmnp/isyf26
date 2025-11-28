@@ -384,7 +384,7 @@ const events = [
       name: "Workshops at Science Centre Singapore",
       highlight: true,
       time: "1:30 PM - 4:30 PM",
-      description: "[Description needed?]",
+      description: "Ever wondered how everyday phenomena work? The Science Centre has the answers! Dive into interactive exhibitions and take part in an exclusive workshop where delegates get to perform their own experiment.",
     },
     {
       name: "Return to HCI",
