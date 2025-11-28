@@ -170,6 +170,44 @@ const carouselImages = [
     description: "A space for art, science, and human spirit, with 33 galleries showcasing a multidisciplinary space celebrating cosmology, couture, environmental justice, and other cutting edge innovation.",
     alt: "The ArtScience Museum, Singapore"
   },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Clarke_Quay_%288566640595%29.jpg",
+    caption: "Clarke Quay",
+    description: "A vibrant riverside district filled with colorful shophouses, lively nightlife, and waterfront dining. Popular for bars, clubs, and scenic evening strolls.",
+    alt: "Clarke Quay"
+  },
+  {
+    src: "/images/little-india.jpg",
+    caption: "Little India",
+    description: "A sensory-rich neighborhood bursting with colorful shops, fragrant spice stalls, and vibrant Hindu temples showcasing Indian heritage.",
+    alt: "Little India"
+  },
+  
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/1/19/Chinatown_at_night%2C_Singapore.jpg",
+    caption: "Chinatown",
+    description: "A historic enclave blending old temples, heritage streets, and bustling markets with trendy cafes and culture-rich experiences.",
+    alt: "Chinatown"
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Masjidsultan.jpg",
+    caption: "Kampong Glam",
+    description: "Singapore’s Malay-Arab quarter known for its striking Sultan Mosque, indie boutiques, and a cool mix of tradition and modern street culture.",
+    alt: "Kampong Glam"
+  },
+  {
+    src: "https://www.nparks.gov.sg/images/default-source/parks-img/fort-canning-park/fort-canning-park-hero-fort-gate.jpg",
+    caption: "Fort Canning",
+    description: "Stroll through a historic landmark that traces Singapore’s beginnings. Fort Canning Park reveals ancient artifacts unearthed from its grounds and teems with diverse flora and fauna.",
+    alt: "Fort Canning"
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Singapore_City_Gallery_%22Central_Area_Model%22_%282025%29_-_img_01.jpg",
+    caption: "URA Museum",
+    description: "Trace Singapore’s journey from a humble fishing village to the modern metropolis it is today. Explore interactive exhibitions that showcase the urban strategies and planning efforts that shaped our city.",
+    alt: "URA Museum"
+  },
+
 ];
 
 onMounted(() => {
