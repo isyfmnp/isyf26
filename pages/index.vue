@@ -48,32 +48,22 @@
         <img src="/images/profiles/organising-team/co-chairpersons-2026.jpg" alt="Jolin Lim En Qi and Kan Wei Sen"
           class="cochairs-photo" />
         <p class="sign">Dear Student Delegates and Educators,</p>
-        <p>
-          Welcome to the 18th International Science Youth Forum (ISYF) @ Hwa Chong Institution, held from 5 to 9 January 2026! 
-        </p>
-        <p>
-          ISYF provides a platform for student delegates from around the world to share their passion for Science, Technology and Research whilst building long-lasting friendships. Over the week, our Organising Committee has prepared an itinerary filled with sightseeing, learning and many opportunities for collaboration with your peers.
-        </p>
-        <p>
-          The theme for this year’s ISYF is: “Curiosity Unlocked: How Questions Drive Discovery in the Age of AI.” Scientific discovery has always been rooted in curiosity, inspiring humanity to question the unknown and expand the frontiers of understanding. In an era shaped by artificial intelligence and rapid technological advancement, this human spirit of inquiry remains as vital as ever. As intelligent systems transform the way we explore and interpret the world, it is curiosity that continues to guide purposeful innovation and responsible progress. 
-        </p>
-        <p>
-          Through ISYF 2026, we aim to nurture a generation of young scientists who value questions as much as answers, and who recognise that true discovery arises not from certainty, but from the courage to wonder.
 
-        </p>
-        <p>
-          The Organising Committee of ISYF 2026 looks forward to meeting you and we hope that you will have a fruitful time at ISYF 2026!
+        <p>Welcome to the 18th International Science Youth Forum (ISYF) @ Hwa Chong Institution, held from 5 to 9 January 2026!</p>
 
-        </p>
-        <p class="sign">
-          Warmest regards, 
+        <p>ISYF provides a platform for student delegates from around the world to share their passion for Science, Technology, and Research whilst building long-lasting friendships. Over the week, our Organising Committee has curated an exciting line-up of activities brimming with scientific discovery, from inspiring lectures and research exchanges to hands-on experiments and thought-provoking discussions, all alongside moments of sightseeing, fun, and collaboration with new friends from around the world.</p>
 
-<br> Jolin Lim En Qi and Kan Wei Sen
+        <p>The theme for this year’s ISYF is: “Curiosity Unlocked: How Questions Drive Discovery in the Age of AI.” Scientific discovery has always been rooted in curiosity and the innate drive to ask why and how, inspiring humanity to question the unknown and expand the frontiers of understanding. Why does the universe continue to expand? How do intricate patterns in nature arise from the simplest of rules? Can machines ever replicate the depth of human thought and emotion?</p>
 
-<br> Co-Chairpersons
+        <p>In an era defined by artificial intelligence and rapid technological transformation, this timeless spirit of inquiry remains our greatest compass. As intelligent systems reshape the way we explore and interpret the world, it is curiosity that steers us toward innovation with purpose and progress with conscience. Through ISYF 2026, we aim to nurture a generation of young scientists who value questions as much as answers, and who recognise that true discovery arises not from certainty, but from the courage to wonder.</p>
 
-<br> ISYF 2026 Student Organising Committee
-        </p>
+        <p>The Organising Committee of ISYF 2026 looks forward to meeting you and we hope that you will have a fruitful time at ISYF 2026!</p>
+
+        <p class="sign">Warmest regards,<br>
+        Jolin Lim En Qi and Kan Wei Sen<br>
+        Co-Chairpersons<br>
+        ISYF 2026 Student Organising Committee</p>
+
         <!-- </Letter> -->
       </section>
 
