@@ -11,7 +11,7 @@
       <h3 class="event-title">{{ event.event }}</h3>
       <a class="profile" v-for="profile in event.profiles" :href="'#' + profile.name.replaceAll(' ', '')"
         @click="resetLink">
-        <img class="profile-img" :src="'/images/profiles/speakers/' + profile.image + '.jpg'" alt="" />
+        <img class="profile-img" :src="'/images/profiles/speakers/' + profile.image + '.png'" alt="" />
         <div class="name">
           {{ profile.name }}
         </div>
@@ -31,7 +31,7 @@
 
       <section class="profile" v-for="profile in event.profiles">
         <div class="scroll-anchor" :id="profile.name.replaceAll(' ', '')"></div>
-        <img :src="'/images/profiles/speakers/' + profile.image + '.jpg'" :alt="profile.name"/>
+        <img :src="'/images/profiles/speakers/' + profile.image + '.png'" :alt="profile.name"/>
         <div class="info">
           <h3>{{ profile.name }}</h3>
           <h4 v-if="profile.status">{{ profile.status }}</h4>
