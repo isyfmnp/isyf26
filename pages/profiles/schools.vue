@@ -76,7 +76,7 @@ const schoolsUnordered = [
   { 'country': 'Overseas', 'name': 'Taipei Municipal Chien Kuo High School' }, 
   { 'country': 'Overseas', 'name': 'Tallinn Secondary School of Science' }, 
   { 'country': 'Overseas', 'name': "Diocesan Girls' School" }, 
-  { 'country': 'Overseas', 'name': 'Center for Young Scientists' }, 
+  { 'country': 'Overseas', 'name': 'Santa Laurensia Senior High School' }, 
   { 'country': 'Overseas', 'name': 'SMA Negeri 4 Denpasar High School' }, 
   { 'country': 'Overseas', 'name': 'National Gifted Secondary School of Laos' }, 
   {'country':'Overseas','name':'SMJK Chung Ling Pulau Pinang'},

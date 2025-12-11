@@ -83,7 +83,7 @@
         <span class="item-text"> FAQ</span>
       </a>
       <div class="socials">
-        <a class="item" href="https://www.instagram.com/isyf.2025/" target="_blank">
+        <a class="item" href="https://www.instagram.com/isyf.2026/" target="_blank">
           <InstagramIcon />
         </a>
         <a class="item" href="https://www.youtube.com/channel/UCs9CbJcxC2x8OPYiNx5QDTg" target="_blank">
