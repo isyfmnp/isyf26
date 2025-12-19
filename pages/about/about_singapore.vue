@@ -166,7 +166,7 @@ const carouselImages = [
   },
   {
     src: "/images/art-science-museum.webp",
-    caption: "Singapore Art and Science Museum",
+    caption: "Singapore ArtScience Museum",
     description: "A space for art, science, and human spirit, with 33 galleries showcasing a multidisciplinary space celebrating cosmology, couture, environmental justice, and other cutting edge innovation.",
     alt: "The ArtScience Museum, Singapore"
   },

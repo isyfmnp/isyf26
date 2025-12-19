@@ -378,7 +378,7 @@ const events = [
     },
     {
       name: "Depart for Science Centre Singapore",
-      time: "1:30 PM",
+      time: "12:45 PM",
     },
     {
       name: "Workshops at Science Centre Singapore",
@@ -418,10 +418,9 @@ const events = [
       time: "11:30 AM - 12:30 PM",
     },
     {
-      name: "Singapore Art and Science Museum",
+      name: "Singapore ArtScience Museum",
       time: "1:30 PM - 5 PM",
-      highlight: true,
-      description: "[Description needed?]"
+      highlight: true
     },
     {
       name: "Return to HCI",
@@ -463,7 +462,7 @@ const events = [
       time: "2 PM - 3:30 PM",
       highlight: true,
       description:
-        "Hear from the insights of Nobel Laureates during the Keynote Lecture, which will also be the flagship event of ISYF 2025. After which, take a tour around the Poster Exhibition, where student delegates will share their scientific research with eminent scientists, educators, and other fellow delegates! ",
+        "Hear from the insights of Nobel Laureates during the Keynote Lecture, which will also be the flagship event of ISYF 2026. After which, take a tour around the Poster Exhibition, where student delegates will share their scientific research with eminent scientists, educators, and other fellow delegates! ",
     },
     {
       name: "Poster Exhibition",
@@ -493,7 +492,7 @@ const events = [
       time: "12 PM - 3 PM",
       highlight: true,
       description:
-        "During the Closing Lunch, delegates may look forward to exciting performances and activities under the grand ballroom lights. While it's sad to say goodbye, we hope that you'll bring along the lasting memories and newfound friendships made during ISYF 2025!",
+        "During the Closing Lunch, delegates may look forward to exciting performances and activities under the grand ballroom lights. While it's sad to say goodbye, we hope that you'll bring along the lasting memories and newfound friendships made during ISYF 2026!",
     },
     {
       name: "Final Departure",

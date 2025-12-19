@@ -16,7 +16,7 @@
       </h2>
 
       <p>
-        Throughout history, scientific advancement has been driven not merely by the search for answers, but by the willingness to ask profound and often disruptive questions. In the modern context of machine learning and automated systems, this theme emphasizes the enduring role of human curiosity. From Newton’s contemplation of gravity to Franklin’s work in molecular biology, each breakthrough has originated with inquiry. As artificial intelligence enhances our capacity for data analysis, it is imperative to preserve the uniquely human capacity to question, doubt, and imagine. Scientific discovery remains, above all, a product of curiosity.
+        Throughout history, scientific progress has been driven not only by the pursuit of solutions such as curing deadly diseases, improving living conditions, or deepening our understanding of the natural world, but also by the courage to ask profound and often disruptive questions. In today’s era of machine learning and automated systems, it is precisely this courage to ask such questions that crucially underscores the enduring power of human curiosity. From Newton’s reflections on the force of gravity to Franklin’s breakthroughs in molecular biology, many of the greatest advances began not with answers, but with inquiry.<br><br>As artificial intelligence expands our capacity to analyse data and generate ideas, we must safeguard the uniquely human ability to question, doubt, and imagine. Indeed, curiosity lies at the heart of many transformative scientific breakthroughs.
 
       </p>
     </section>
