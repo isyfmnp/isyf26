@@ -79,15 +79,14 @@
             nano-scale wonders and futuristic applications.
           </p>
           <p>
-            Immerse yourself in Science Centre Singapore's 850+ exhibits and
-            unite with global cultures during the immersive Cultural Hour.
-            Connect deeply with Nobel Laureates at Masterclasses, unraveling the
+            Immerse yourself in Science Centre Singapore's 850+ exhibits and 
+            connect deeply with Nobel Laureates at Masterclasses, unraveling the
             mysteries of cutting-edge knowledge. Explore the vibrant hues and
             ingenious technologies at Bird Paradise Singapore.
           </p>
           <p>
             Dive into an intellectual frenzy at Keynote Lectures, Poster
-            Exhibitions, and collaborative science activities. ISYF beckons—an
+            Exhibitions, an escape room and infographic design. ISYF beckons—an
             adventure pulsating with connection, discovery, and exhilaration!
           </p>
 
@@ -150,6 +149,9 @@
           </a>
           <a href="https://sutd.edu.sg" target="_blank">
             <img src="/images/logos/sutd_logo.png" alt="SUTD" />
+          </a>
+          <a href="https://www.singaporetech.edu.sg/" target="_blank">
+            <img src="/images/logos/sit_logo.png" alt="SIT" />
           </a>
           <a href="https://a-star.edu.sg" target="_blank">
             <img src="/images/logos/astar_logo.png" alt="ASTAR Research" />
@@ -599,6 +601,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(9rem, 13rem));
   justify-content: center;
+  justify-items: center;
+
 
   padding: 0;
   border-radius: 8px;

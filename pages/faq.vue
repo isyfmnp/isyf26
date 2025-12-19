@@ -78,7 +78,7 @@ const questions = {
     "Who are we?":
       "The ISYF student organizing committee is made up of 42 friendly, fun and caring facilitators from the Science Student Research Club and other affiliates from Hwa Chong Institution, Singapore. We are guided by a team of dedicated teachers from Hwa Chong Institution and we're excited to have you here for the 18th iteration of ISYF! ",
     "What can I look forward to?":
-      "As your facilitators, we have planned an exciting array of activities, including a Science Quest and a cultural exhibition. In fact, what you have seen in the Programme Overview is just a slight preview of what you can experience here. It is our greatest hope that you'll not just take away valuable scientific insights from the forum, but also long-lasting friendships with people all over the world. ",
+      "As your facilitators, we have planned an exciting array of activities, including science quests and a cultural exhibition. In fact, what you have seen in the Programme Overview is just a slight preview of what you can experience here. It is our greatest hope that you'll not just take away valuable scientific insights from the forum, but also long-lasting friendships with people all over the world. ",
     "What is a typical day like?":
       "We believe the 5 days of ISYF will be an exciting and enriching experience for you. You can look forward to the cultural exhibition, learning and experiencing the vibrant and unique cultures of each and every participant from various countries. In a typical day, you can expect engaging dialogue sessions or lessons with eminent scientists in our lectures and Masterclasses, and an opportunity to visit Singapore's own industries and universities for further insight into the research culture in Singapore. Get ready for an unforgettable journey of learning and discovery!",
   },
@@ -88,7 +88,7 @@ const questions = {
     "Will I be sharing rooms with other participants?":
       "Yes you will. In fact, the rooms of the boarding school that you'll be staying in are either 2 bedders or 4 bedders. Your roommates are likely to be delegates from other countries. We believe that this is an invaluable opportunity for you to form close friendships and create precious memories.",
     "Is there any laundry service available?":
-      "There are self-launderette facilities (washing machines located on the ground floor of Halls B, E and G) available for usage in the boarding school. Each wash / dry takes approximately 30 minutes at a cost of 1 dollar per wash or per dry.",
+      "There are self-launderette facilities (washing machines located on the ground floor of Halls B, E and G) available for usage in the boarding school. Each wash / dry takes approximately 30 minutes at a cost of 2 dollars per wash and 1 dollar per dry.",
     "Is there a need to bring bath towels/bed sheets?":
       "Bed sheets will be provided already upon check in to the boarding school. However, do note that you would have to bring your own bath towels and toiletries (soap, toothbrush etc.) sufficient for the course of ISYF as the Hwa Chong Institution Boarding School does not provide these.",
     "What about safety/security?":
