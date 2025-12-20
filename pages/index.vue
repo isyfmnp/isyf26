@@ -679,6 +679,7 @@
 </style>
 
 <script setup>
+await navigateTo('/profiles/speakers', { replace: true })
 import { onMounted } from "vue";
 import banner from "../components/masthead.vue";
 import Button from "../components/button/button.vue";
