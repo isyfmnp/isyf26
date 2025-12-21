@@ -2,7 +2,7 @@
   <h1>Invited Speakers</h1>
 
   <p>
-    Click on each speakers name to see their profile! You can also scroll down and see
+    Click on each speaker's name to see their profile! You may also scroll down to view
     further details
   </p>
 
