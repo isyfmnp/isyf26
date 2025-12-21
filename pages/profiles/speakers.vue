@@ -3,7 +3,7 @@
 
   <p>
     Click on each speaker's name to see their profile! You may also scroll down to view
-    further details
+    further details.
   </p>
 
   <div class="collage">
