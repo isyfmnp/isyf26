@@ -4,9 +4,9 @@
   <div class="comm" v-for="comm in profiles">
     <div class="comm-title">{{ comm.name }}</div>
     <div class="comm-showcase">
-      <img
+        <img
         class="comm-img"
-        :src="'/images/profiles/organising-team/' + comm.image + '.jpg'"
+        :src="useBase('images/profiles/organising-team/' + comm.image + '.jpg')"
       />
       <div class="comm-description">
         <p v-html="comm.description" class="commDescription"></p>
@@ -75,6 +75,7 @@
 </style>
 
 <script setup>
+import { useBase } from '~/composables/useBase';
 const profiles = [
   {
     name: 'Admin & Operations',

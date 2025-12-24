@@ -12,7 +12,7 @@
         </button>
         <div class="loading_icon" id="loading_icon"></div>
         <img id="picture" :style="{ height: photoHeight + 'px', width: photoWidth + 'px' }"
-          :src="photos[currentDay - 1][currentPhotoId].replace('.webp', '').replace('small', 'big')" @click.stop=""
+          :src="useBase(photos[currentDay - 1][currentPhotoId].replace('.webp', '').replace('small', 'big'))" @click.stop=""
           @load="onImageLoad()" />
         <button class="controls picture-forwards" @click.stop="adjustPhotoIndex(1)"
           :class="{ enabled: getPhotoOffsetAvailable(1) }">
@@ -34,10 +34,10 @@
         <div class="slider" :class="{ loading: sliderLoading }">
           <div class="slide" v-for="(link, photoId) in photos[currentDay - 1]" @click="showImage(photoId)"
             v-if="photos[currentDay - 1].length > 0">
-            <img :src="link" />
+            <img :src="useBase(link)" />
           </div>
           <div class="slider-empty" v-else>
-            <img src="/public/event_images/shrug.webp">
+            <img :src="useBase('event_images/shrug.webp')">
             <span>Sorry, nothing available yet!</span>
           </div>
         </div>
@@ -54,14 +54,7 @@
   text-decoration: none;
   color: var(--primary);
 }
-.masthead::before {
-  color: var(--bg);
-  background-image: url("/images/mediabg.webp");
-  filter: brightness(40%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 43% 50%;
-}
+
 
 #body#body {
   max-width: none;
@@ -325,6 +318,7 @@
 </style>
 
 <script setup>
+import { useBase } from '~/composables/useBase';
 import { ref, nextTick, watch, onMounted, onUnmounted } from "vue";
 
 const totalDays = 6;
@@ -418,12 +412,12 @@ function fetchPhotos() {
   // Fetch photos from images folder
   // Glob imports have to be static :eyeroll: so i have to statically import each one 
   let gallery = []
-  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day0/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => '/event_images/small/day0/' + filePath.split('/').pop()));
-  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day1/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => '/event_images/small/day1/' + filePath.split('/').pop()));
-  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day2/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => '/event_images/small/day2/' + filePath.split('/').pop()));
-  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day3/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => '/event_images/small/day3/' + filePath.split('/').pop()));
-  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day4/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => '/event_images/small/day4/' + filePath.split('/').pop()));
-  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day5/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => '/event_images/small/day5/' + filePath.split('/').pop()));
+  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day0/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => 'event_images/small/day0/' + filePath.split('/').pop()));
+  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day1/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => 'event_images/small/day1/' + filePath.split('/').pop()));
+  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day2/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => 'event_images/small/day2/' + filePath.split('/').pop()));
+  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day3/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => 'event_images/small/day3/' + filePath.split('/').pop()));
+  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day4/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => 'event_images/small/day4/' + filePath.split('/').pop()));
+  gallery.push(Object.keys(import.meta.glob(`/public/event_images/small/day5/*.{png,jpg,jpeg,webp,PNG,JPEG,WEBP}`, { eager: true })).map(filePath => 'event_images/small/day5/' + filePath.split('/').pop()));
 
   return gallery
 }

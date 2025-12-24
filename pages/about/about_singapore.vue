@@ -26,7 +26,7 @@
 
       </p>
       <div class="button-row">
-        <a class="btn" href="/programme">
+        <a class="btn" :href="useBase('programme')">
           <span class="icon material-icons-outlined">event_note</span>
             Which locale will delegates be visiting?
           <span class="icon material-icons-outlined">chevron_right</span>
@@ -137,6 +137,7 @@ section.goals {
 </style>
 
 <script setup>
+import { useBase } from '~/composables/useBase';
 import PrimaryHighlight from "../components/primaryHighlight.vue";
 import PhotoCarousel from "~/components/carousel/PhotoCarousel.vue";
 import { ref, watch, onMounted, onUnmounted } from "vue";
