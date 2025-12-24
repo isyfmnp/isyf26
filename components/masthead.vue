@@ -1,5 +1,5 @@
 <template>
-  <div class="masthead" ref="masthead">
+  <div class="masthead" ref="masthead" :style="backgroundStyle">
     <slot />
   </div>
 
@@ -7,6 +7,19 @@
 </template>
 
 <script setup>
+const props = defineProps({
+  background: { type: String, default: '' }
+});
+
+const backgroundStyle = props.background
+  ? {
+      backgroundImage: `url('${props.background}')`,
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: '43% 50%',
+      color: 'var(--bg)'
+    }
+  : {};
 import { ref, onMounted } from "vue";
 const masthead = ref(null);
 const mhHeight = ref("100vh");

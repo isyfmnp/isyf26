@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Masthead>
+    <Masthead :background="useBase('images/mediabg.webp')">
       <h1>ISYF 2026</h1>
     </Masthead>
 
