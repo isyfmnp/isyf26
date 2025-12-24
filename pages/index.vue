@@ -2,7 +2,7 @@
   <div>
     <div class="banner" :class="{ normal: bannerNormal }">
       <div class="info">
-        <img class="logo" src="/icon_light.png" alt="ISYF Logo" />
+        <img class="logo" :src="useBase('icon_light.png')" alt="ISYF Logo" />
         <div class="title-wrapper">
           <h1 class="title">International Science Youth Forum 2026</h1>
           <div class="title2-wrapper">
@@ -45,7 +45,7 @@
       <section class="letter1">
         <!-- <Letter>         -->
 
-        <img src="/images/profiles/organising-team/co-chairpersons-2026.jpg" alt="Jolin Lim En Qi and Kan Wei Sen"
+        <img :src="useBase('images/profiles/organising-team/co-chairpersons-2026.jpg')" alt="Jolin Lim En Qi and Kan Wei Sen"
           class="cochairs-photo" />
         <p class="sign">Dear Student Delegates and Educators,</p>
 
@@ -91,17 +91,17 @@
           </p>
 
           <div class="button-row">
-            <a class="btn" href="/programme">
+            <a class="btn" :href="useBase('programme')">
               <span class="icon material-icons-outlined">event_note</span>
               What's the rest of the programme?
               <span class="icon material-icons-outlined">chevron_right</span>
             </a>
-            <a class="btn" href="/profiles/speakers">
+            <a class="btn" :href="useBase('profiles/speakers')">
               <span class="icon material-icons-outlined">person</span>
               Who will be speaking at ISYF?
               <span class="icon material-icons-outlined">chevron_right</span>
             </a>
-            <a class="btn" href="/faq">
+            <a class="btn" :href="useBase('faq')">
               <span class="icon material-icons-outlined">question_mark</span>
               I have a question!
               <span class="icon material-icons-outlined">chevron_right</span>
@@ -122,16 +122,16 @@
             <img src="/images/logos/hc_logo.png" alt="" />
           </a>
           <a href="https://www.moe.gov.sg" target="_blank">
-            <img src="/images/logos/moe_logo.png" alt="" />
-          </a>
-        </ul>
-
-        <br />
-
-        <p>
-          We are also deeply honoured to have the support and help of these
-          organisations:
-        </p>
+            <img :src="useBase('images/logos/hc_logo.png')" alt="" />
+            <img :src="useBase('images/logos/moe_logo.png')" alt="" />
+            <img :src="useBase('images/logos/nrf_logo.png')" alt="National Research Foundation" style="scale: 1.15" />
+            <img :src="useBase('images/logos/gyss_logo.png')" alt="Global Young Scientists Summit" />
+            <img :src="useBase('images/logos/ntuias_logo.png')" alt="NTU" />
+            <img :src="useBase('images/logos/nus_logo.png')" alt="NUS" />
+            <img :src="useBase('images/logos/sutd_logo.png')" alt="SUTD" />
+            <img :src="useBase('images/logos/sit_logo.png')" alt="SIT" />
+            <img :src="useBase('images/logos/astar_logo.png')" alt="ASTAR Research" />
+            <img :src="useBase('images/logos/scs_logo.png')" alt="Science Centre Sngapore" />
         <ul class="supporters">
           <a href="https://www.nrf.gov.sg" target="_blank">
             <img src="/images/logos/nrf_logo.png" alt="National Research Foundation" style="scale: 1.15" />
@@ -679,6 +679,7 @@
 </style>
 
 <script setup>
+import { useBase } from '~/composables/useBase';
 
 /*await navigateTo('/profiles/speakers', { replace: true })*/
 import { onMounted } from "vue";

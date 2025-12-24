@@ -2,7 +2,7 @@
   <div class="footer-wrapper">
     <div class="footer">
       <section class="stamp">
-        <img class="logo" src="/icon_dark.png" alt="ISYF Logo" />
+        <img class="logo" :src="useBase('icon_dark.png')" alt="ISYF Logo" />
 
         <div class="credits">
           <span class="copyright">
@@ -24,8 +24,8 @@
       <section>
         <h1>ORGANISERS</h1>
         <div class="organizers">
-          <img src="/images/logos/moe_logo.png" alt="Ministry of Education" />
-          <img src="/images/logos/hc_logo.png" alt="Hwa Chong Institution" />
+          <img :src="useBase('images/logos/moe_logo.png')" alt="Ministry of Education" />
+          <img :src="useBase('images/logos/hc_logo.png')" alt="Hwa Chong Institution" />
         </div>
       </section>
 
@@ -238,6 +238,7 @@ p {
 </style>
 
 <script setup>
+import { useBase } from '~/composables/useBase';
 import InstagramIcon from "./icons/instagram.vue";
 import YoutubeIcon from "./icons/youtube.vue";
 </script>

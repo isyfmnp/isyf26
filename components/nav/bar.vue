@@ -1,8 +1,8 @@
 <template>
   <nav :class="{ transparent: navTransparent }">
-    <a class="stamp" href="/">
-      <img class="logo light" src="/icon_light.png" alt="ISYF Logo" />
-      <img class="logo dark" src="/icon_dark.png" alt="ISYF Logo" />
+    <a class="stamp" :href="useBase('')">
+      <img class="logo light" :src="useBase('icon_light.png')" alt="ISYF Logo" />
+      <img class="logo dark" :src="useBase('icon_dark.png')" alt="ISYF Logo" />
       <div class="text">
         <div class="title">ISYF 2026</div>
       </div>
@@ -15,7 +15,7 @@
       <a class="item close-button" @click="menuOpen = !menuOpen">
         <span class="material-icons-outlined">close</span>
       </a>
-      <a class="item" href="/">
+      <a class="item" :href="useBase('')">
         <span class="item-text">Home</span>
       </a>
       <div class="closed" :class="{ open: profilesOpen }">
@@ -26,12 +26,12 @@
       <div class="subitems-wrapper">
           <ul class="subitems">
             <li>
-              <a href="/about/about_isyf">
+              <a :href="useBase('about/about_isyf')">
                 <span class="item-text">About ISYF</span>
               </a>
             </li>
             <li>
-              <a href="/about/about_singapore">
+              <a :href="useBase('about/about_singapore')">
                 <span class="item-text">About Singapore</span>
               </a>
             </li>
@@ -39,7 +39,7 @@
           </ul>
         </div>
       </div>
-      <a class="item" href="/programme">
+      <a class="item" :href="useBase('programme')">
         <span class="item-text">Programme</span>
       </a>
       <div class="closed" :class="{ open: profilesOpen }">
@@ -50,19 +50,19 @@
         <div class="subitems-wrapper">
           <ul class="subitems">
             <li>
-              <a href="/profiles/speakers">
+              <a :href="useBase('profiles/speakers')">
                 <span class="material-icons-outlined icon">person</span>
                 <span class="item-text">Speakers</span>
               </a>
             </li>
             <li>
-              <a href="/profiles/schools">
+              <a :href="useBase('profiles/schools')">
                 <span class="material-icons-outlined icon">school</span>
                 <span class="item-text">Schools</span>
               </a>
             </li>
             <li>
-              <a href="/profiles/organising-team">
+              <a :href="useBase('profiles/organising-team')">
                 <span class="material-icons-outlined icon">group</span>
                 <span class="item-text">Organising Team</span>
               </a>
@@ -71,7 +71,7 @@
         </div>
       </div>
       <!--       
-      <a class="item" href="/photos">
+      <a class="item" :href="useBase('photos')">
         <span class="item-text">Photos</span>
       </a>
        -->
@@ -79,7 +79,7 @@
         <span class="item-text">Photos</span>
       </a>
 
-      <a class="item" href="/faq">
+      <a class="item" :href="useBase('faq')">
         <span class="item-text"> FAQ</span>
       </a>
       <div class="socials">
@@ -523,6 +523,7 @@ nav.transparent {
 </style>
 
 <script setup>
+import { useBase } from '~/composables/useBase';
 import { ref, onMounted, onUnmounted } from "vue";
 import { gsap } from "gsap";
 import InstagramIcon from "../icons/instagram.vue";
