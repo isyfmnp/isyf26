@@ -119,20 +119,35 @@
         </p>
         <ul class="supporters">
           <a href="https://www.hci.edu.sg" target="_blank">
-            <img src="/images/logos/hc_logo.png" alt="" />
+            <img :src="useBase('images/logos/hc_logo.png')" alt="Hwa Chong Institution" />
           </a>
           <a href="https://www.moe.gov.sg" target="_blank">
-            <img :src="useBase('images/logos/hc_logo.png')" alt="" />
-            <img :src="useBase('images/logos/moe_logo.png')" alt="" />
+            <img :src="useBase('images/logos/moe_logo.png')" alt="Ministry of Education" />
+          </a>
+          <a href="https://www.nrf.gov.sg" target="_blank">
             <img :src="useBase('images/logos/nrf_logo.png')" alt="National Research Foundation" style="scale: 1.15" />
+          </a>
+          <a href="https://gyss.nrf.gov.sg" target="_blank">
             <img :src="useBase('images/logos/gyss_logo.png')" alt="Global Young Scientists Summit" />
+          </a>
+          <a href="https://www.ntu.edu.sg/ias" target="_blank">
             <img :src="useBase('images/logos/ntuias_logo.png')" alt="NTU" />
+          </a>
+          <a href="https://nus.edu.sg" target="_blank">
             <img :src="useBase('images/logos/nus_logo.png')" alt="NUS" />
+          </a>
+          <a href="https://sutd.edu.sg" target="_blank">
             <img :src="useBase('images/logos/sutd_logo.png')" alt="SUTD" />
+          </a>
+          <a href="https://www.singaporetech.edu.sg/" target="_blank">
             <img :src="useBase('images/logos/sit_logo.png')" alt="SIT" />
+          </a>
+          <a href="https://a-star.edu.sg" target="_blank">
             <img :src="useBase('images/logos/astar_logo.png')" alt="ASTAR Research" />
-            <img :src="useBase('images/logos/scs_logo.png')" alt="Science Centre Sngapore" />
-        <ul class="supporters">
+          </a>
+          <a href="https://www.science.edu.sg" target="_blank">
+            <img :src="useBase('images/logos/scs_logo.png')" alt="Science Centre Singapore" />
+          </a>
           <a href="https://www.nrf.gov.sg" target="_blank">
             <img src="/images/logos/nrf_logo.png" alt="National Research Foundation" style="scale: 1.15" />
           </a>
@@ -140,27 +155,9 @@
             <img src="/images/logos/gyss_logo.png" alt="Global Young Scientists Summit" />
           </a>
         </ul>
-        <ul class="supporters">
-          <a href="https://www.ntu.edu.sg/ias" target="_blank">
-            <img src="/images/logos/ntuias_logo.png" alt="NTU" />
-          </a>
-          <a href="https://nus.edu.sg" target="_blank">
-            <img src="/images/logos/nus_logo.png" alt="NUS" />
-          </a>
-          <a href="https://sutd.edu.sg" target="_blank">
-            <img src="/images/logos/sutd_logo.png" alt="SUTD" />
-          </a>
-          <a href="https://www.singaporetech.edu.sg/" target="_blank">
-            <img src="/images/logos/sit_logo.png" alt="SIT" />
-          </a>
-          <a href="https://a-star.edu.sg" target="_blank">
-            <img src="/images/logos/astar_logo.png" alt="ASTAR Research" />
-          </a>
-          <a href="https://www.science.edu.sg" target="_blank">
-            <img src="/images/logos/scs_logo.png" alt="Science Centre Sngapore" />
-
-          </a>
-        </ul>
+        
+        
+        
       </section>
     </div>
   </div>
