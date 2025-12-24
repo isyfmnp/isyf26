@@ -70,11 +70,7 @@
           </ul>
         </div>
       </div>
-      <!--       
-      <a class="item" :href="useBase('photos')">
-        <span class="item-text">Photos</span>
-      </a>
-       -->
+
       <a class="item" :href="useBase('photos')">
         <span class="item-text">Photos</span>
       </a>
