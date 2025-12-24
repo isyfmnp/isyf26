@@ -79,7 +79,7 @@ import { useBase } from '~/composables/useBase';
 const profiles = [
   {
     name: 'Admin & Operations',
-    image: 'ano',
+    image: 'AnO',
     description:
       'The Admin & Operations team are dedicated individuals who work tirelessly to ensure your ISYF experience is smooth and seamless. They orchestrate and tie events together behind the scenes to bring you a truly fulfilling experience!',
     imgCaption:
@@ -87,7 +87,7 @@ const profiles = [
   },
   {
     name: 'Ceremonies',
-    image: 'ceremonies',
+    image: 'Ceremonies',
     description:
       'The Ceremonies team have planned two major events for ISYF: The ISYF Keynote Lecture and Closing Lunch. <br/><br/> The Keynote Lecture is a great chance for you to hear more from Nobel laureates and eminent scientists on issues surrounding the theme of the forum. You also get a chance to pose your very own questions to the experts in a forum styled question-and-answer session. <br/><br/> The Closing Ceremony on the other hand is our way of ending off ISYF on a high note, so be ready with your cameras to take some memorable photos!',
     imgCaption:
@@ -95,7 +95,7 @@ const profiles = [
   },
   {
     name: 'Masterclasses',
-    image: 'dnm',
+    image: 'DnM',
     description:
       'The Masterclasses team seek to connect you to knowledgeable and prominent scientists, allowing you to explore new perspectives and gain new insights on notable scientific research. We hope you stay curious and embrace this valuable oportunity with eminent scientists and Nobel laureates!',
     imgCaption:
@@ -103,7 +103,7 @@ const profiles = [
   },
   {
     name: 'Media & Publications',
-    image: 'mnp',
+    image: 'MnP',
     description:
       'The Media & Publications team constantly strive to deliver to you the best publicity efforts and media projects. Stay informed with the ISYF website, Instagram pages and the student handbook. Also enjoy the unique designs on the ISYF merchandise made by our very own designers. We hope that the content we create will be able to add to your ISYF experience!',
     imgCaption:
@@ -111,7 +111,7 @@ const profiles = [
   },
   {
     name: 'Recreational Activities',
-    image: 'reacts',
+    image: 'ReActs',
     description:
       'The Recreational Activities team are in charge of ensuring you enjoy yourself thoroughly, through fun activities like the Singapore Discovery Tour, Cultural Hour and Exhibitions. ISYF is the perfect avenue to meet new friends who are passionate in science, and we hope that these activities provide a great time for you to bond with them!',
     imgCaption:
@@ -119,7 +119,7 @@ const profiles = [
   },
   {
     name: 'Science Activities',
-    image: 'sciacts',
+    image: 'SciActs',
     description:
       'The Science Activities team will enrich your learning with various activities to dive deeper into the world of Science. Do look forward to science excursions and challenges, which will be sure to provide something new for everyone!',
     imgCaption:
