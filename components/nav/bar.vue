@@ -18,12 +18,12 @@
       <a class="item" :href="useBase('')">
         <span class="item-text">Home</span>
       </a>
-      <div class="closed" :class="{ open: profilesOpen }">
-        <a class="item" @click="profilesOpen = !profilesOpen">
+      <div class="closed" :class="{ open: aboutOpen }">
+        <a class="item" @click="aboutOpen = !aboutOpen">
           <span class="item-text"> About </span>
           <span class="material-icons-outlined indicator">chevron_right</span>
         </a>
-      <div class="subitems-wrapper">
+        <div class="subitems-wrapper">
           <ul class="subitems">
             <li>
               <a :href="useBase('about/about_isyf')">
@@ -35,7 +35,6 @@
                 <span class="item-text">About Singapore</span>
               </a>
             </li>
-
           </ul>
         </div>
       </div>
@@ -525,6 +524,7 @@ import { gsap } from "gsap";
 import InstagramIcon from "../icons/instagram.vue";
 import YoutubeIcon from "../icons/youtube.vue";
 
+const aboutOpen = ref(false);
 const profilesOpen = ref(false);
 const menuOpen = ref(false);
 
