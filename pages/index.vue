@@ -115,7 +115,7 @@
         <p>
           ISYF is hosted and organised by Hwa Chong Institution’s very own
           Science Student Research Club (SSRC), with the support of the Ministry
-          of Education (MOE).
+          of Education (MOE) and partners.
         </p>
         <ul class="supporters">
           <a href="https://www.hci.edu.sg" target="_blank">
@@ -148,12 +148,7 @@
           <a href="https://www.science.edu.sg" target="_blank">
             <img :src="useBase('images/logos/scs_logo.png')" alt="Science Centre Singapore" />
           </a>
-          <a href="https://www.nrf.gov.sg" target="_blank">
-            <img src="/images/logos/nrf_logo.png" alt="National Research Foundation" style="scale: 1.15" />
-          </a>
-          <a href="https://gyss.nrf.gov.sg" target="_blank">
-            <img src="/images/logos/gyss_logo.png" alt="Global Young Scientists Summit" />
-          </a>
+          
         </ul>
         
         

@@ -76,7 +76,7 @@ import { ref } from "vue";
 const questions = {
   Programme: {
     "Who are we?":
-      "The ISYF student organizing committee is made up of 42 friendly, fun and caring facilitators from the Science Student Research Club and other affiliates from Hwa Chong Institution, Singapore. We are guided by a team of dedicated teachers from Hwa Chong Institution and we're excited to have you here for the 18th iteration of ISYF! ",
+      "The ISYF student organizing committee is made up of 42 friendly, fun and caring facilitators from the Science Student Research Club and other selected students from Hwa Chong Institution, Singapore. We are guided by a team of dedicated teachers from Hwa Chong Institution and we're excited to have you here for the 18th iteration of ISYF! ",
     "What can I look forward to?":
       "As your facilitators, we have planned an exciting array of activities, including science quests and a cultural exhibition. In fact, what you have seen in the Programme Overview is just a slight preview of what you can experience here. It is our greatest hope that you'll not just take away valuable scientific insights from the forum, but also long-lasting friendships with people all over the world. ",
     "What is a typical day like?":
@@ -86,7 +86,7 @@ const questions = {
     "Where will I be staying?":
       "All delegates and educators will be housed at the Hwa Chong Institution Boarding School. More information of the boarding school can be found at <a href='http://www.hcibs.edu.sg' target='_blank'>http://www.hcibs.edu.sg</a>",
     "Will I be sharing rooms with other participants?":
-      "Yes you will. In fact, the rooms of the boarding school that you'll be staying in are either 2 bedders or 4 bedders. Your roommates are likely to be delegates from other countries. We believe that this is an invaluable opportunity for you to form close friendships and create precious memories.",
+      "Yes you will. In fact, the rooms of the boarding school that you'll be staying in are either 2 bedders or 4 bedders. Your roommates are likely to be delegates from other schools. We believe that this is an invaluable opportunity for you to form close friendships and create precious memories.",
     "Is there any laundry service available?":
       "There are self-launderette facilities (washing machines located on the ground floor of Halls B, E and G) available for usage in the boarding school. Each wash / dry takes approximately 30 minutes at a cost of 2 dollars per wash and 1 dollar per dry.",
     "Is there a need to bring bath towels/bed sheets?":
