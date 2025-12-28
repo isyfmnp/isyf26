@@ -2,7 +2,7 @@
   <div class="footer-wrapper">
     <div class="footer">
       <section class="stamp">
-        <img class="logo" :src="useBase('icon_dark.png')" alt="ISYF Logo" />
+        <img class="logo" :src="useBase('icon_dark.webp')" alt="ISYF Logo" />
 
         <div class="credits">
           <span class="copyright">
@@ -35,7 +35,7 @@
           <div class="contact-list">
             <a
               class="item"
-              href="https://www.instagram.com/isyf.2025/"
+              href="https://www.instagram.com/isyf.2026/"
               target="_blank"
             >
               <InstagramIcon /><span class="full-social">@isyf.2026</span>

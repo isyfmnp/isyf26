@@ -2,7 +2,7 @@
   <div>
     <div class="banner" :class="{ normal: bannerNormal }">
       <div class="info">
-        <img class="logo" :src="useBase('icon_light.png')" alt="ISYF Logo" />
+        <img class="logo" :src="useBase('icon_light.webp')" alt="ISYF Logo" />
         <div class="title-wrapper">
           <h1 class="title">International Science Youth Forum 2026</h1>
           <div class="title2-wrapper">
@@ -213,7 +213,7 @@
 }
 
 .background {
-  background-image: url("/images/clocktower-6.jpeg");
+  background-image: url("/images/clocktower-6.webp");
   filter: brightness(0.7);
   z-index: -1;
   background-size: cover;
