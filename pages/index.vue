@@ -45,7 +45,7 @@
       <section class="letter1">
         <!-- <Letter>         -->
 
-        <img :src="useBase('images/profiles/organising-team/co-chairpersons-2026.jpg')" alt="Jolin Lim En Qi and Kan Wei Sen"
+        <img :src="useBase('images/profiles/organising-team/co-chairpersons-2026.webp')" alt="Jolin Lim En Qi and Kan Wei Sen"
           class="cochairs-photo" />
         <p class="sign">Dear Student Delegates and Educators,</p>
 

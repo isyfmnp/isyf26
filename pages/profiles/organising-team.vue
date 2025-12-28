@@ -6,7 +6,7 @@
     <div class="comm-showcase">
         <img
         class="comm-img"
-        :src="useBase('images/profiles/organising-team/' + comm.image + '.jpg')"
+        :src="useBase('images/profiles/organising-team/' + comm.image + '.webp')"
       />
       <div class="comm-description">
         <p v-html="comm.description" class="commDescription"></p>
