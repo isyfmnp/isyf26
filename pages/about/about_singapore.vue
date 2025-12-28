@@ -148,19 +148,19 @@ definePageMeta({
 // Carousel images with transparent overlay text
 const carouselImages = [
   {
-    src: useBase('images/singapore-skyline.jpg'),
+    src: useBase('images/singapore-skyline.webp'),
     caption: "Singapore Skyline",
     description: "Experience the stunning cityscape of Singapore, a global hub of innovation and culture. The iconic Marina Bay Sands and Gardens by the Bay showcase the perfect blend of nature and modern architecture.",
     alt: "Singapore skyline"
   },
   {
-    src: useBase('images/marina-bay-sands.jpg'),
+    src: useBase('images/marina-bay-sands.webp'),
     caption: "Marina Bay Area",
     description: "Marina Bay is the heart of Singapore's business and entertainment district. This waterfront precinct features world-class convention facilities, museums, and cultural attractions.",
     alt: "Marina Bay waterfront"
   },
   {
-    src: useBase('images/gardens-by-the-bay.jpg'),
+    src: useBase('images/gardens-by-the-bay.webp'),
     caption: "Gardens by the Bay",
     description: "An iconic horticultural attraction spanning 101 hectares. The Supertree Grove and Cloud Forest dome represent Singapore's commitment to sustainability and green innovation.",
     alt: "Gardens by the Bay Supertrees"
@@ -172,38 +172,38 @@ const carouselImages = [
     alt: "The ArtScience Museum, Singapore"
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Clarke_Quay_%288566640595%29.jpg",
+    src: useBase('images/clarke-quay.webp'),
     caption: "Clarke Quay",
     description: "A vibrant riverside district filled with colorful shophouses, lively nightlife, and waterfront dining. Popular for bars, clubs, and scenic evening strolls.",
     alt: "Clarke Quay"
   },
   {
-    src: useBase('images/little-india.jpg'),
+    src: useBase('images/little-india.webp'),
     caption: "Little India",
     description: "A sensory-rich neighborhood bursting with colorful shops, fragrant spice stalls, and vibrant Hindu temples showcasing Indian heritage.",
     alt: "Little India"
   },
-  
+
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/1/19/Chinatown_at_night%2C_Singapore.jpg",
+    src: useBase('images/chinatown.webp'),
     caption: "Chinatown",
     description: "A historic enclave blending old temples, heritage streets, and bustling markets with trendy cafes and culture-rich experiences.",
     alt: "Chinatown"
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Masjidsultan.jpg",
+    src: useBase('images/kampong-glam.webp'),
     caption: "Kampong Glam",
     description: "Singapore’s Malay-Arab quarter known for its striking Sultan Mosque, indie boutiques, and a cool mix of tradition and modern street culture.",
     alt: "Kampong Glam"
   },
   {
-    src: "https://www.nparks.gov.sg/images/default-source/parks-img/fort-canning-park/fort-canning-park-hero-fort-gate.jpg",
+    src: useBase('images/fort-canning.webp'),
     caption: "Fort Canning",
     description: "Stroll through a historic landmark that traces Singapore’s beginnings. Fort Canning Park reveals ancient artifacts unearthed from its grounds and teems with diverse flora and fauna.",
     alt: "Fort Canning"
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Singapore_City_Gallery_%22Central_Area_Model%22_%282025%29_-_img_01.jpg",
+    src: useBase('images/ura-museum.webp'),
     caption: "URA Museum",
     description: "Trace Singapore’s journey from a humble fishing village to the modern metropolis it is today. Explore interactive exhibitions that showcase the urban strategies and planning efforts that shaped our city.",
     alt: "URA Museum"
