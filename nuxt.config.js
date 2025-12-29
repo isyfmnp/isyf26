@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
   app: {
-    baseURL: '/isyf26/',
+    baseURL: '/',
     pageTransition: { name: "page", mode: "out-in" },
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {

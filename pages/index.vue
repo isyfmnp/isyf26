@@ -15,7 +15,7 @@
         <div class="detail-list">
           <div class="detail">
             <span class="material-icons-outlined small-icon">
-              calendar_month </span>4-9 January 2026
+              calendar_month </span>5-9 January 2026
           </div>
           <div class="seperator"></div>
           <div class="detail">
