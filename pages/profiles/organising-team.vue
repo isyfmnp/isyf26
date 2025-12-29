@@ -94,10 +94,10 @@ const profiles = [
       '<b>LEFT TO RIGHT: </b>Kenneth Kuah Seng Ray, Kwek Yee Shong, Jolin Lim En Qi, Kan Wei Sen, Ang En Ci, Nguyen Do Khanh Phuong (not in photo)',
   },
   {
-    name: 'Masterclasses',
+    name: 'Dialogues & Masterclasses',
     image: 'DnM',
     description:
-      'The Masterclasses team seek to connect you to knowledgeable and prominent scientists, allowing you to explore new perspectives and gain new insights on notable scientific research. We hope you stay curious and embrace this valuable oportunity with eminent scientists and Nobel laureates!',
+      'The Dialogues & Masterclasses team seek to connect you to knowledgeable and prominent scientists, allowing you to explore new perspectives and gain new insights on notable scientific research. We hope you stay curious and embrace this valuable oportunity with eminent scientists and Nobel laureates!',
     imgCaption:
       '<b>1ST ROW: </b>Sun Zizhuo, Leong Wei Chan, Alexis Lee Simin<br><b>2ND ROW: </b>Cao Xizhen, Alex Liu Su, Zhou Ruihan<br><b>3RD ROW: </b>Zhang Qinqi, Vu Minh Tran',
   },
