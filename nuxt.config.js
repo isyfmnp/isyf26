@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description", content: "" },
+        { hid: "description", name: "description", content: "Welcome to the 18th International Science Youth Forum (ISYF) @ Hwa Chong Institution, held from 5 to 9 January 2026!" },
         { name: "format-detection", content: "telephone=no" },
         { name: "og:title", content: "ISYF 2026" },
         { name: "og:description", content: "International Science Youth Forum 2026" },
