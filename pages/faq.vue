@@ -76,13 +76,13 @@ import { ref } from "vue";
 const questions = {
   Programme: {
     "Who are we?":
-      "The ISYF student organizing committee is made up of 42 friendly, fun and caring facilitators from the Science Student Research Club and other selected students from Hwa Chong Institution, Singapore. We are guided by a team of dedicated teachers from Hwa Chong Institution and we're excited to have you here for the 18th iteration of ISYF! ",
+      "The ISYF student organizing committee is made up of 42 friendly, fun and caring facilitators from the Students' Science Research Club and other selected students from Hwa Chong Institution, Singapore. We are guided by a team of dedicated teachers from Hwa Chong Institution and we're excited to have you here for the 18th iteration of ISYF! ",
     "What can I look forward to?":
       "As your facilitators, we have planned an exciting array of activities, including science quests and a cultural exhibition. In fact, what you have seen in the Programme Overview is just a slight preview of what you can experience here. It is our greatest hope that you'll not just take away valuable scientific insights from the forum, but also long-lasting friendships with people all over the world. ",
     "What is a typical day like?":
       "We believe the 5 days of ISYF will be an exciting and enriching experience for you. You can look forward to the cultural exhibition, learning and experiencing the vibrant and unique cultures of each and every participant from various countries. In a typical day, you can expect engaging dialogue sessions or lessons with eminent scientists in our lectures and Masterclasses, and an opportunity to visit Singapore's own industries and universities for further insight into the research culture in Singapore. Get ready for an unforgettable journey of learning and discovery!",
   },
-  Accomodation: {
+  Accommodation: {
     "Where will I be staying?":
       "All delegates and educators will be housed at the Hwa Chong Institution Boarding School. More information of the boarding school can be found at <a href='http://www.hcibs.edu.sg' target='_blank'>http://www.hcibs.edu.sg</a>",
     "Will I be sharing rooms with other participants?":

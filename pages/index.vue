@@ -79,13 +79,7 @@
             nano-scale wonders and futuristic applications.
           </p>
           <p>
-            Immerse yourself in Science Centre Singapore's 850+ exhibits and 
-            connect deeply with Nobel Laureates at Masterclasses, unraveling the
-            mysteries of cutting-edge knowledge. Explore the vibrant hues and
-            ingenious technologies at Bird Paradise Singapore.
-          </p>
-          <p>
-            Dive into an intellectual frenzy at Keynote Lectures, Poster
+            Dive into an intellectual frenzy at Masterclasses, a Keynote Lecture, Poster
             Exhibitions, an escape room and infographic design. ISYF beckons—an
             adventure pulsating with connection, discovery, and exhilaration!
           </p>
@@ -114,7 +108,7 @@
         <h2>Who are the organisers?</h2>
         <p>
           ISYF is hosted and organised by Hwa Chong Institution’s very own
-          Science Student Research Club (SSRC), with the support of the Ministry
+          Students' Science Research Club (SSRC), with the support of the Ministry
           of Education (MOE) and partners.
         </p>
         <ul class="supporters">
@@ -130,6 +124,8 @@
           <a href="https://gyss.nrf.gov.sg" target="_blank">
             <img :src="useBase('images/logos/gyss_logo.png')" alt="Global Young Scientists Summit" />
           </a>
+        </ul>
+        <ul class="supporters">
           <a href="https://www.ntu.edu.sg/ias" target="_blank">
             <img :src="useBase('images/logos/ntuias_logo.png')" alt="NTU" />
           </a>
@@ -142,6 +138,8 @@
           <a href="https://www.singaporetech.edu.sg/" target="_blank">
             <img :src="useBase('images/logos/sit_logo.png')" alt="SIT" />
           </a>
+        </ul>
+        <ul class="supporters">
           <a href="https://a-star.edu.sg" target="_blank">
             <img :src="useBase('images/logos/astar_logo.png')" alt="ASTAR Research" />
           </a>
@@ -592,13 +590,14 @@
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(9rem, 13rem));
+  /*grid-template-columns: repeat(auto-fit, minmax(16rem, 16rem));*/
   justify-content: center;
   justify-items: center;
 
-
-  padding: 0;
+  padding: 15px 0px;
   border-radius: 8px;
   overflow: hidden;
+
   border: 1px solid var(--gray-200);
 }
 
@@ -606,7 +605,7 @@
   display: grid;
   place-items: center;
   width: 9rem;
-  padding-inline: 1.5rem;
+  padding-inline: 3rem;
   position: relative;
   overflow: hidden;
   height: 100%;
