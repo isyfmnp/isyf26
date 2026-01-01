@@ -69,9 +69,14 @@
 
 <script setup>
 import { useBase } from '~/composables/useBase';
+/* public/profiles/schools/* need to match the name of the school specified here, with .jpg extension */
 const schoolsUnordered = [
+  { 'country': 'Overseas Schools', 'name': 'Camborne Science & International Academy' }, 
+  { 'country': 'Overseas Schools', 'name': 'CentrE for the Development of Gifted and Talented Education'},
+  { 'country': 'Overseas Schools', 'name': 'Hyogo Prefectural Takarazukakita High School'},
   { 'country': 'Overseas Schools', 'name': 'New Generation School Preah Sisowath High School' }, 
   { 'country': 'Overseas Schools', 'name': 'The Angkor Intellectual Academy' }, 
+  { 'country': 'Overseas Schools', 'name': 'The High School Affiliated to Southern University of Science and Technology'},
   { 'country': 'Overseas Schools', 'name': 'The Second High School Attached to Bejing Normal University' }, 
   { 'country': 'Overseas Schools', 'name': 'Taipei First Girls High School' }, 
   { 'country': 'Overseas Schools', 'name': 'Taipei Municipal Chien Kuo High School' }, 
