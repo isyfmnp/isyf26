@@ -589,8 +589,7 @@
   list-style: none;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(9rem, 13rem));
-  /*grid-template-columns: repeat(auto-fit, minmax(16rem, 16rem));*/
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 16rem));
   justify-content: center;
   justify-items: center;
 
