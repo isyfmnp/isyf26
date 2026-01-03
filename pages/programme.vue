@@ -12,7 +12,7 @@
     <div class="timeline-wrapper">
       <Timeline />
     </div>
-
+   
     <div class="condensed-timeline">
       <ul>
         <li class="event-day" v-for="(dayTitle, dayIndex) in days">
@@ -27,6 +27,16 @@
               </div>
               <img v-if="event.image" :src="event.image" :alt="'Image for ' + event.name" />
               <p v-if="event.description">{{ event.description }}</p>
+              <div v-if="event.pdf" class="event-pdf">
+                <a href="https://docs.google.com/spreadsheets/d/1ND2ED0Qa0661CBFmTPhW6W-WWlrx4PIJnvIWUirWd4g/edit?usp=sharing" target="_blank" class="pdf-link">
+                  Open spreadsheet ↗
+                </a>
+                <iframe 
+                  :src="event.pdf + '#zoom=200'"
+                  type="application/pdf"
+                  loading="lazy">
+                </iframe>
+              </div>
             </li>
           </ul>
         </li>
@@ -39,6 +49,7 @@
 .content {
   margin-top: 0rem !important;
 }
+
 </style>
 
 <style scoped>
@@ -193,6 +204,39 @@ ul {
   border-radius: 8px;
   padding: 0.75rem 0.75rem;
   margin-left: -0.375rem;
+}
+
+.event-pdf {
+  position: relative;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.pdf-link {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.pdf-link:hover {
+  background-color: var(--primary-600);
+  transform: translateY(-1px);
+}
+
+.event-pdf iframe {
+  display: block;
+  width: 100%;
+  height: 60vh;
+  border: 1px solid var(--gray-500);
+  border-radius: 8px;
 }
 
 /* TIMELINE EFFECT */
@@ -468,6 +512,7 @@ const events = [
       name: "Poster Exhibition",
       time: "3 PM - 4:30 PM",
       highlight: true,
+      pdf: "/ISYF26_SciActs_PosterExhibition_ForPublication - All Posters - ISYF 2026.pdf"
     },
     {
       name: "Dinner Out",
