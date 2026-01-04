@@ -123,7 +123,7 @@ const profiles = [
     description:
       'The Science Activities team will enrich your learning with various activities to dive deeper into the world of Science. Do look forward to science excursions and challenges, which will be sure to provide something new for everyone!',
     imgCaption:
-      '<b>1ST ROW: </b>Zhu Yijun, Yao Zilu Isaiah<br><b>2ND ROW: </b>Sim Shuan Luck, Boyce, Kong Jia Le Dylan<br><b>3RD ROW: </b>Caelen Chang Kai Mun, Jethro Chai Tsin Kai',
+      '<b>1ST ROW: </b>Zhu Yijun, Yao Zilu Isaiah<br><b>2ND ROW: </b>Sim Shuan Luck, Boyce Ang Kok Hong (Hong Guo Feng), Kong Jia Le Dylan<br><b>3RD ROW: </b>Caelen Chang Kai Mun, Jethro Chai Tsin Kai',
   },
 ];
 </script>
