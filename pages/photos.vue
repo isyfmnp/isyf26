@@ -12,7 +12,7 @@
         </button>
         <div class="loading_icon" id="loading_icon"></div>
         <img id="picture" :style="{ height: photoHeight + 'px', width: photoWidth + 'px' }"
-          :src="useBase(photos[currentDay - 1][currentPhotoId].replace('.webp', '').replace('small', 'big'))" @click.stop=""
+          :src="useBase(photos[currentDay - 1][currentPhotoId].replace('.webp', '.jpg').replace('small', 'big'))" @click.stop=""
           @load="onImageLoad()" />
         <button class="controls picture-forwards" @click.stop="adjustPhotoIndex(1)"
           :class="{ enabled: getPhotoOffsetAvailable(1) }">
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="slider" :class="{ loading: sliderLoading }">
-          <div class="slide" v-for="(link, photoId) in photos[currentDay - 1]" @click="showImage(photoId)"
+          <div class="slide" v-for="(link, photoId) in displayedPhotos" @click="showImage(photoId)"
             v-if="photos[currentDay - 1].length > 0">
             <img :src="useBase(link)" />
           </div>
@@ -41,9 +41,11 @@
             <span>Sorry, nothing available yet!</span>
           </div>
         </div>
+        <button v-if="hasMorePhotos" @click="loadMorePhotos" class="load-more-btn">
+          View More
+        </button>
       </section>
       <span>
-        This page will be updated during ISYF 2026. See you then!<br><br>
         Link to photos on Google Drive: <a class="a_no_underline" href="#">Coming soon!</a></span>
     </main>
   </div>
@@ -213,6 +215,29 @@
   filter: brightness(0.8);
 }
 
+.load-more-btn {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid var(--fg);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.load-more-btn:hover {
+  background-color: var(--primary-800);
+}
+
+.load-more-btn:active {
+  background-color: var(--primary-900);
+}
+
 /*
 *
 *
@@ -319,16 +344,34 @@
 
 <script setup>
 import { useBase } from '~/composables/useBase';
-import { ref, nextTick, watch, onMounted, onUnmounted } from "vue";
+import { ref, nextTick, watch, onMounted, onUnmounted, computed } from "vue";
 
 const totalDays = 6;
 const currentDay = ref(1);
 const sliderLoading = ref(false)
+const visibleRows = ref(3);
+const imagesPerRow = 5; 
 
 const viewerShown = ref(false);
 const currentPhotoId = ref(0);
 const photoWidth = ref(0);
 const photoHeight = ref(0);
+
+// Calculate displayed photos based on visible rows
+const displayedPhotos = computed(() => {
+  const maxImages = visibleRows.value * imagesPerRow;
+  return photos[currentDay.value - 1].slice(0, maxImages);
+});
+
+// Check if there are more photos to load
+const hasMorePhotos = computed(() => {
+  const maxImages = visibleRows.value * imagesPerRow;
+  return photos[currentDay.value - 1].length > maxImages;
+});
+
+function loadMorePhotos() {
+  visibleRows.value += 3;
+}
 
 function showImage(pictureId) {
   if (pictureId != currentPhotoId.value) {
@@ -389,6 +432,7 @@ function keyWatcher(e) {
 function changeDay(newDay) {
   sliderLoading.value = true
   currentDay.value = newDay
+  visibleRows.value = 3 
   setTimeout(() => {
     sliderLoading.value = false
   }, 750)
